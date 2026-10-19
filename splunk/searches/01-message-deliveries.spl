@@ -1,0 +1,1 @@
+index=lab_phishing sourcetype="soc:smtp:delivery" | table utc recipient mail_from message_id subject attachment_sha256 | sort 0 utc

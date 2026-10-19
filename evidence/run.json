@@ -1,0 +1,22 @@
+{
+  "start_utc": "2026-10-19T09:14:52.7729873Z",
+  "end_utc": "2026-10-19T09:17:00.9448236Z",
+  "messages": [
+    {
+      "recipient": "mohamedahmed@company.example",
+      "message_id": "<179240122597.2.17648805003023995307@people-update.example>"
+    },
+    {
+      "recipient": "accounts@company.example",
+      "message_id": "<179240122600.2.7455291422176946045@people-update.example>"
+    }
+  ],
+  "attachment_sha256": "96df2ee248bcf001c06821f51341a3760da79ead873a609b0def34f1266550de",
+  "execution": {
+    "archive_sha256": "96DF2EE248BCF001C06821F51341A3760DA79EAD873A609B0DEF34F1266550DE",
+    "download_process_id": 2992,
+    "launcher_pid": 3868,
+    "exit_code": 0,
+    "ended_utc": "2026-10-19T09:16:48.0073829Z"
+  }
+}

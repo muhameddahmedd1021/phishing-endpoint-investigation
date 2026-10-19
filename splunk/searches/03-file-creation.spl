@@ -1,0 +1,1 @@
+index=lab_phishing provider="Microsoft-Windows-Sysmon" event_id=11 | eval UTC=utc,PID='data.ProcessId',Image='data.Image',File='data.TargetFilename' | table UTC PID Image File | sort 0 UTC

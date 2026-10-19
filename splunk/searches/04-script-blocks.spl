@@ -1,0 +1,1 @@
+index=lab_phishing provider="Microsoft-Windows-PowerShell" event_id=4104 | eval UTC=utc,PID=event_process_id,ScriptBlockId='data.ScriptBlockId',ScriptBlockText='data.ScriptBlockText' | table UTC PID ScriptBlockId ScriptBlockText | sort 0 UTC
