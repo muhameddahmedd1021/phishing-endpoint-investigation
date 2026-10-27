@@ -13,7 +13,7 @@ python3 lab/smtp-inbox.py --output mail
 
 Create `Benefits-Review.zip` containing `lab/Benefits-Review.pdf.cmd` and `lab/review.ps1`. Serve that archive at `/phishing/Benefits-Review.zip` on the isolated HTTP service. Send the sample with `lab/send-message.py` and specify the ZIP path. The receiver stores the actual accepted message bytes and computes the attachment hash from the MIME message.
 
-The recorded service address is `10.0.2.2:8766`, the QEMU host gateway. Adjust the message URL and `review.ps1` together when using another internal topology. Keep reserved `.example` addresses for the sample messages.
+The recorded internal service address is `10.0.2.2:8766`. Adjust the message URL and `review.ps1` together when using another internal topology. Keep reserved `.example` addresses for the sample messages.
 
 ## Windows review
 

@@ -1,5 +1,5 @@
-UTC,PID,ScriptBlockId,ScriptBlockText
-"2026-10-19T09:14:55.4911721Z",2992,"4e78d9ed-a05f-4798-9ec3-b37d53898b7e","$ProgressPreference='SilentlyContinue';
+utc,data.ScriptBlockText,record_id
+2026-10-19T09:14:55.4911721Z,"$ProgressPreference='SilentlyContinue';
 
     $ErrorActionPreference='Stop'
     $root='C:\Users\Public\Documents\MohamedLab\Phishing'
@@ -8,8 +8,8 @@ UTC,PID,ScriptBlockId,ScriptBlockText
     $hash=(Get-FileHash ""$root\Benefits-Review.zip"" -Algorithm SHA256).Hash
     $p=Start-Process cmd.exe -ArgumentList ('/c ""'+$root+'\Benefits-Review\Benefits-Review.pdf.cmd""') -PassThru -Wait
     [pscustomobject]@{archive_sha256=$hash;download_process_id=$PID;launcher_pid=$p.Id;exit_code=$p.ExitCode;ended_utc=(Get-Date).ToUniversalTime().ToString('o')} | ConvertTo-Json -Compress
-    "
-"2026-10-19T09:16:14.2783390Z",2052,"4c7ff5f7-ba17-4677-870d-0c6cf28c1b4e","$ErrorActionPreference = 'Stop'
+    ",988
+2026-10-19T09:16:14.2783390Z,"$ErrorActionPreference = 'Stop'
 $out = 'C:\ProgramData\MohamedLab\Phishing'
 New-Item -ItemType Directory -Path $out -Force | Out-Null
 [pscustomobject]@{
@@ -20,4 +20,4 @@ New-Item -ItemType Directory -Path $out -Force | Out-Null
     result = 'Attachment execution marker'
 } | ConvertTo-Json | Set-Content ""$out\review-result.json"" -Encoding UTF8
 Invoke-WebRequest 'http://10.0.2.2:8766/phishing/ack?case=benefits-review' -UseBasicParsing | Out-Null
-"
+",995

@@ -1,1 +1,2 @@
-index=lab_phishing | eval provider=coalesce(provider,"Service record"), event_id=coalesce(event_id,"N/A") | stats count by sourcetype provider event_id | sort sourcetype provider event_id
+index=lab_phishing earliest=0
+| stats count by sourcetype

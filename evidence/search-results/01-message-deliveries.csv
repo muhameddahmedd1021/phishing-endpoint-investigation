@@ -1,3 +1,3 @@
-utc,recipient,"mail_from","message_id",subject,"attachment_sha256"
-"2026-10-19T09:13:46.001483Z","mohamedahmed@company.example","benefits@people-update.example","<179240122597.2.17648805003023995307@people-update.example>","Action required: benefits review",96df2ee248bcf001c06821f51341a3760da79ead873a609b0def34f1266550de
-"2026-10-19T09:13:46.034089Z","accounts@company.example","benefits@people-update.example","<179240122600.2.7455291422176946045@people-update.example>","Action required: benefits review",96df2ee248bcf001c06821f51341a3760da79ead873a609b0def34f1266550de
+utc,recipient,message_id,attachment_sha256
+2026-10-19T09:13:46.001483Z,mohamedahmed@company.example,<179240122597.2.17648805003023995307@people-update.example>,96df2ee248bcf001c06821f51341a3760da79ead873a609b0def34f1266550de
+2026-10-19T09:13:46.034089Z,accounts@company.example,<179240122600.2.7455291422176946045@people-update.example>,96df2ee248bcf001c06821f51341a3760da79ead873a609b0def34f1266550de

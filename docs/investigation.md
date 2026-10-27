@@ -58,3 +58,19 @@ The archive is downloaded to the endpoint over the internal lab HTTP service. En
 Two email deliveries and one endpoint execution were recorded. The other address has delivery evidence only. Search Message-ID, attachment hash and related sender/subject context to locate deliveries, then use endpoint and network evidence to establish user interaction and execution separately.
 
 In a real incident, escalate an unexpected command-script-to-PowerShell chain with its message, hash, execution time, affected account and device. Capture what was delivered, what actually ran, and what remains unknown. Password resets or session revocation require evidence of credential exposure or the applicable response playbook; a delivered attachment alone does not establish it.
+
+## File inspection
+
+The [original EML viewed in Notepad](../images/windows-message-inspection.jpg) exposes the sender, Reply-To, Message-ID, body link and MIME attachment headers. Explorer and [file properties](../images/windows-attachment-properties.jpg) show the actual command-script extension.
+
+Reading the script explains the local marker and internal HTTP request:
+
+![Script content in Notepad](../images/windows-script-inspection.jpg)
+
+The archive hash was checked with `Get-FileHash`:
+
+![Archive hash inspection](../images/windows-attachment-result.png)
+
+## Overview
+
+![Splunk investigation overview](../images/splunk-overview.png)

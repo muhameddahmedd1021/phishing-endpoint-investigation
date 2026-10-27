@@ -1,7 +1,7 @@
-UTC,PID,Image,File
-"2026-10-19T09:14:57.4086419Z",2992,"C:\Windows\system32\wsmprovhost.exe","C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review.zip"
-"2026-10-19T09:15:12.2451541Z",2992,"C:\Windows\system32\wsmprovhost.exe","C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review"
-"2026-10-19T09:15:18.9700151Z",2992,"C:\Windows\system32\wsmprovhost.exe","C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review\Benefits-Review.pdf.cmd"
-"2026-10-19T09:15:19.4106804Z",2992,"C:\Windows\system32\wsmprovhost.exe","C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review\review.ps1"
-"2026-10-19T09:16:31.0110960Z",2052,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","C:\ProgramData\MohamedLab\Phishing"
-"2026-10-19T09:16:42.2523949Z",2052,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","C:\ProgramData\MohamedLab\Phishing\review-result.json"
+utc,data.Image,data.TargetFilename,record_id
+2026-10-19T09:14:57.4086419Z,C:\Windows\system32\wsmprovhost.exe,C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review.zip,1729
+2026-10-19T09:15:12.2451541Z,C:\Windows\system32\wsmprovhost.exe,C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review,1731
+2026-10-19T09:15:18.9700151Z,C:\Windows\system32\wsmprovhost.exe,C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review\Benefits-Review.pdf.cmd,1732
+2026-10-19T09:15:19.4106804Z,C:\Windows\system32\wsmprovhost.exe,C:\Users\Public\Documents\MohamedLab\Phishing\Benefits-Review\review.ps1,1733
+2026-10-19T09:16:31.0110960Z,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\ProgramData\MohamedLab\Phishing,1738
+2026-10-19T09:16:42.2523949Z,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\ProgramData\MohamedLab\Phishing\review-result.json,1739
