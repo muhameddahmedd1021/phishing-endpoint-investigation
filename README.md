@@ -2,6 +2,8 @@
 
 Tracing a controlled phishing delivery from the received email to Windows execution. The lab preserves the original EML messages, the delivered archive, its downloaded hash, native endpoint events and the related Splunk results.
 
+The investigation starts with an urgent document-review request and a disguised command-script attachment. It follows the message and file into the endpoint records to establish what actually executed.
+
 ![Email deliveries in Splunk](images/01-message-deliveries-search.jpg)
 
 ## The case
@@ -31,6 +33,14 @@ Windows shows the complete `.pdf.cmd` extension. File properties identify it as 
 The saved marker records PowerShell PID 2052, matching the endpoint events.
 
 ![Saved result inspected in Notepad](images/windows-output-inspection.jpg)
+
+## Investigation outcome
+
+The attachment's command launcher started PowerShell, which wrote `review-result.json` with the computer, account, UTC time and PID. It also requested the internal `/phishing/ack?case=benefits-review` URL. Process, file and network records connect the activity to PowerShell PID 2052.
+
+**The simulated phishing payload executed on one endpoint.** The two recorded deliveries identify the mailboxes to review; execution is established separately by the Windows evidence. The payload's result file is a local execution marker.
+
+For incident triage, the relevant handoff is the received message, attachment hash, affected endpoint and account, process chain and connection. Other recipients and devices would then be checked for the same indicators. These are response recommendations; the lab's recorded outcome is delivery and controlled endpoint execution.
 
 ## Files
 
